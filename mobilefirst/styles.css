@@ -1,8 +1,34 @@
 *{
     background-color: #0F2127;
     color:#CEA948;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+
+
+/*FØRSTE SECTION MED TEKST*/
 .divet{
     text-align: center;
+}
+
+/*ANDEN SECTION MED BILLEDE OG TEKST*/
+.divto{
+    background-color: #2F667A;
+}
+
+/*TREDJE SECTION MED TEKST OG BAGGRUNDSBILLEDE*/
+.sectiontre{
+    background-image: url(images/baggrundomos.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/*GENERELLE SECTIONS*/
+section{
+    display: flex;
 }
