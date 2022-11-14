@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*GENERELLE REGLER*/
+body{
+    background-color: #0F2127;
+    color:#CEA948;
+}
+
+section{
+    display: flex;
+}
+
+p{
+    line-height: 1.6;
+}
+
+/*BAGGRUNDSBILLEDE I TOPPEN*/
+.billedeet{
+    background: url(images/forsideomos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+/*OVERSKRIFT*/
+.overskrift{
+    border-bottom: 1px solid #cea948;
+    width:100%;
+
+    padding-left:30%;
+    margin-bottom:80px;
+
+}
+
+.overskrift h1{
+    position:relative;
+    background-color: #0f2127;
+    top: 30px;
+
+    width:500px;
+    text-align: center;
+    
+    font-weight:500;
+    font-size: 40pt;
+    color:#cea948;
+}
+
+/*FØRSTE SECTION MED TEKST*/
+.divet{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 50px;
+}
+
+/*ANDEN SECTION MED BILLEDE OG TEKST*/
+.sectionto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
+}
+
+.billedeto{
+    background:url(images/glasomos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.divto{
+    background-color: #2F667A;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+
+}
+
+/*TREDJE SECTION MED TEKST OG BAGGRUNDSBILLEDE*/
+.sectiontre{
+    background: url(images/baggrundomos.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+.divtre p{
+    text-align: center;
+    padding-right: 800px;
+    margin-top: 50px;
+    padding-top: 60px;
+}
+
+
