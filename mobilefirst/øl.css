@@ -16,6 +16,8 @@ body{
 
     padding-left:30%;
     margin-bottom:100px;
+
+    
 }
 
 .sideoverskrift h1{
@@ -50,7 +52,7 @@ main section:nth-child(2){
 }
 
 main div:first-child{
-    width:100%;
+    width:125%;
 }
 
 main div:first-child img{
