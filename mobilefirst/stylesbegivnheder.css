@@ -4,7 +4,7 @@
     box-sizing: border-box;}
 
     body{
-        background-color: #0F2127;
+        background-color: #0E1e24
     }
 
     p{
@@ -69,27 +69,27 @@ height: 600px;
 }
 
 /*Header skrift*/
-.header{
+.overskrift{
     margin: 0 auto 15px;
     text-align: center;
     max-width: 820;
     position: relative;
     color: #CEA948;
+    margin: 50px;
 }
 
-.header:before{
+.overskrift:before{
     content:'';
     display: block;
     width: 200px;
    height: 1px;
-
    background: #CEA948;
    position: absolute;
    left: 30%;
    top: 50%;
 }
 
-.header:after{
+.overskrift:after{
     content:'';
     display: block;
     width: 200px;
