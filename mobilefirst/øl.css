@@ -2,6 +2,76 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
 
+body{
     background-color: #0f2127;
+    margin:10%;
+}
+
+/*SIDENS HOVEDOVERSKRIFT*/
+.sideoverskrift{
+    border-bottom: 1px solid #cea948;
+    width:100%;
+
+    padding-left:30%;
+    margin-bottom:100px;
+    
+    
+}
+
+.sideoverskrift h1{
+    position:relative;
+    background-color: #0f2127;
+    top:30px;
+
+    width:500px;
+    text-align: center;
+    
+    font-weight:500;
+    font-size: 40pt;
+    color:#cea948;
+}
+
+/*CARD STYLE: VORES UDVALG*/
+
+
+main section:nth-child(2){
+    display:flex;
+    flex-direction: row;
+
+    border:1px solid #cea948;
+    background-color: #204653;
+    color:#cea948;
+
+    border-radius: 22px;
+    height:500px;
+}
+
+
+main div:first-child{
+    width:100%;
+
+    background-image: url(images/udvalg2.png);
+    background-size: cover;
+
+    border-radius: 20px;
+    border:2px solid #cea948;
+
+}
+
+main div:nth-child(2){
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align:center;
+    padding:50px 30px;
+    
+  
+}
+
+main div:nth-child(2) h1{
+    margin-bottom:20px;
+
 }
