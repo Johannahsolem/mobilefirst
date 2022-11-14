@@ -7,6 +7,67 @@
         background-color: #0F2127;
     }
 
+    p{
+        line-height: 1.6;
+        font-size: 14pt;
+    }
+
+/*HEADER*/
+header{
+    border-bottom: #CEA948 solid 4px;
+    position: fixed;
+    background-color: #0E1E24;
+    width: 100%;
+    z-index: 1;
+    height: 100px;
+}
+
+header img{
+    position: relative;
+    float: left;
+}
+nav a{
+    text-decoration: none;
+    color: #CEA948;
+    margin-right: 40px;
+    font-size: 16pt;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: right;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 50px;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/*Baggrundsbillede*/
+.baggrundbegivenheder{
+background: url(images/baggrundbegivenheder.png);
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 600px;
+}
+
+/*BØLGE*/
+.wave{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    margin-top: -80px;
+
+}
+
 /*Header skrift*/
 .header{
     margin: 0 auto 15px;
@@ -49,15 +110,15 @@
     width: 100%;
     height: 400px;
     align-items: center;
+    overflow: hidden;
 }
 
 .img{
     width: 50%;
-    max-height: 400px;
-    max-width: 50%;
 }
 .img:hover{
     transform: scale(1.1);
+    transition: 1s;
 }
 
 
