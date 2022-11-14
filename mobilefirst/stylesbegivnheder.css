@@ -21,6 +21,7 @@
     display: block;
     width: 200px;
    height: 1px;
+
    background: #CEA948;
    position: absolute;
    left: 30%;
@@ -32,10 +33,13 @@
     display: block;
     width: 200px;
    height: 1px;
+
    background:#CEA948; 
    position: absolute;
    right: 30%;
    top: 50%;
+
+   
 }
 
 /*Kort*/
