@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+header{
+    border-bottom: #CEA948 solid 4px;
+    position: fixed;
+    background-color: #0E1E24;
+    width: 100%;
+    z-index: 1;
+    height: 100px;
+
+
+}
+
+header img{
+    position: relative;
+    float: left;
+}
+nav a{
+    text-decoration: none;
+    color: #CEA948;
+    margin-right: 40px;
+    font-size: 16pt;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: right;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 50px;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+header .navmobil{
+    display:none;
+}
+
+/*BØLGER*/
+.topbillede img {
+    width: 100%;
+    position: relative;
+    top: 250px;
+    /*skubbe bølgen ned af*/
+}
+
+/*FOOTER STYLES*/
+footer > section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #2f667a;
+    height: auto;
+    padding:10%;
+    
+    color:#CEA948;
+
+}
+
+footer h2{
+    font-size:21pt;
+    padding-bottom:10px;
+}
+
+/*FOOTER BØLGER*/
+img.to-bølger-omvendt {
+
+    position: relative;
+    top: 100px;
+}
+
+/*FOOTER IKONER*/
+.socials{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    padding-top:2%;
+}
+
+.socials h1{
+    font-size: 34pt;
+}
+
+.fa-brands{
+    margin-right:20px;
+    color:#CEA948;
+}
+
+.fa-brands:hover{
+    color: #EDC458;
+}
+
+
+/*FOOTER ADRESSE OG TLF*/
+.adresse-tlf{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/*FOOTER ÅBNINGSTIDER*/
+

@@ -7,17 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ølspecialiteter</title>
 
-    <link href="øl.css" rel="stylesheet">
+    <link rel="stylesheet" href="øl.css">
+    <link rel="stylesheet" href="headerfooter.css">
     <script src="https://kit.fontawesome.com/60cddcb918.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <img src="images/logolaptop.png" alt="logo">
+
+        <nav>
+            <a href="omos.html">Om os</a>
+            <a href="øl.html">Ølspecialiteter</a>
+            <a href="begivenheder.html">Begivenheder</a>
+            <a href="">Kontakt</a>
+        </nav>
+
+        <nav class="navmobil">
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+
+    </header>
 
     <main>
         <!--TOP BILLEDE-->
         <div class="topbillede"><img src="images/bølger/to-bølger.svg" alt="bølger"></div>
-        
 
 
         <!--SIDENS HOVEDOVERSKRIFT-->
@@ -41,11 +55,11 @@
 
         </section>
 
-        
+
         <!--ØL MENU-->
         <section class="ølmenu">
             <div class="en-bølge-omvendt"><img src="images/bølger/en-bølge-omvendt.svg" alt="omvendt bølge"></div>
-            
+
             <div class="ølliste">
                 <div class="faste-øl">
                     <h2>Faste øl</h2>
@@ -58,9 +72,9 @@
                         <li></li>
                         <li></li>
                     </ol>
-    
+
                 </div>
-    
+
                 <div class="nyeste-øl">
                     <h2>Nyeste øl</h2>
                     <ol>
@@ -75,16 +89,52 @@
                 </div>
             </div>
 
-            
-            
-        </section>
-        <div class="en-bølge"><img src="images/bølger/en-bølge.svg" alt="bølge"></div>
 
+            <img src="images/bølger/en-bølge.svg" class="en-bølge" alt="bølge">
+        </section>
     </main>
 
-    <div class="to-bølger-omvendt"><img src="images/bølger/to-bølger-omvendt.svg" alt="omvendte bølger"> </div>
+    
     <footer>
-       
+        <img src="images/bølger/to-bølger-omvendt.svg" class="to-bølger-omvendt" alt="omvendte bølger">
+        <section>
+            <section class="socials">
+                <h1>Væskebalancen bar</h1>
+    
+                <div class="ikoner">
+                    <a href="#"><i class="fa-brands fa-square-facebook fa-3x"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-3x"></i></a>
+                    <a href="#"><i class="fa-brands fa-untappd fa-3x"></i></a>
+                </div>
+    
+            </section>
+    
+            <section class="adresse-tlf">
+                <div>
+                    <h2>Adresse</h2>
+                    <p>Jægergårdsgade 2A, kælderen, 8000 Aarhus</p>
+                </div>
+    
+                <div>
+                    <h2>Telefonnummer</h2>
+                    <p><a href="tel:+4560578452">+45 60 57 84 52</a></p>
+                </div>
+            </section>
+    
+            <div>
+                <h2>Åbningstider</h2>
+                <ul>
+                    <p>Mandag: <time>14:00</time> - <time>00:00</time></p>
+                    <p>Tirsdag: <time>14:00</time> - <time>00:00</time></p>
+                    <p>Onsdag: <time>14:00</time> - <time>00:00</time></p>
+                    <p>Torsdag: <time>14:00</time> - <time>00:00</time></p>
+                    <p>Fredag: <time>12:00</time> - <time>02:00</time></p>
+                    <p>Lørdag: <time>12:00</time> - <time>02:00</time></p>
+                    <p>Søndag: <time>14:00</time> - <time>22:00</time></p>
+                </ul>
+            </div>
+        </section>
+
     </footer>
 
 </body>
