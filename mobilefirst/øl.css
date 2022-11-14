@@ -40,12 +40,38 @@ main section:nth-child(2){
     display:flex;
     flex-direction: row;
 
+    border:1px solid #cea948;
     background-color: #204653;
-
     color:#cea948;
+
+    border-radius: 22px;
+    height:500px;
 }
 
-main div:first-child img{
-    width:150%;
-    height:150%;
+
+main div:first-child{
+    width:100%;
+
+    background-image: url(images/udvalg2.png);
+    background-size: cover;
+
+    border-radius: 20px;
+    border:2px solid #cea948;
+
+}
+
+main div:nth-child(2){
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align:center;
+    padding:50px 30px;
+    
+  
+}
+
+main div:nth-child(2) h1{
+    margin-bottom:20px;
+
 }
