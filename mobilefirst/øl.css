@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: #0f2127;
-    margin:10%;
+    background-color: #0e1e24;
+    /*margin:10%;*/
 }
 
 /*SIDENS HOVEDOVERSKRIFT*/
@@ -16,13 +16,11 @@ body{
 
     padding-left:30%;
     margin-bottom:100px;
-    
-    
 }
 
 .sideoverskrift h1{
     position:relative;
-    background-color: #0f2127;
+    background-color: #0e1e24;
     top:30px;
 
     width:500px;
@@ -34,8 +32,6 @@ body{
 }
 
 /*CARD STYLE: VORES UDVALG*/
-
-
 main section:nth-child(2){
     display:flex;
     flex-direction: row;
@@ -46,14 +42,23 @@ main section:nth-child(2){
 
     border-radius: 22px;
     height:500px;
-}
 
+    margin-bottom:100px;
+
+    margin-right:10%;
+    margin-left:10%;
+}
 
 main div:first-child{
     width:100%;
+}
 
-    background-image: url(images/udvalg2.png);
-    background-size: cover;
+main div:first-child img{
+    width:100%;
+    height:100%;
+
+    /*background-image: url(images/udvalg2.png);
+    background-size: cover;*/
 
     border-radius: 20px;
     border:2px solid #cea948;
@@ -74,4 +79,12 @@ main div:nth-child(2){
 main div:nth-child(2) h1{
     margin-bottom:20px;
 
+}
+
+/*ØL MENU STYLES*/
+main section:nth-child(3){
+    background-image: url(images/dåser.png);
+    background-size: cover;
+
+    height:1000px;
 }
