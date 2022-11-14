@@ -6,14 +6,27 @@
 
 body{
     background-color: #0f2127;
+    margin:10%;
 }
 
 .sideoverskrift{
     border-bottom: 1px solid #cea948;
     width:100%;
+
+    padding-left:30%;
+    
+    
 }
 
 .sideoverskrift h1{
     position:relative;
-    top:45px;
+    background-color: #0f2127;
+    top:30px;
+
+    width:500px;
+    text-align: center;
+    
+    font-weight:500;
+    font-size: 40pt;
+    color:#cea948;
 }
