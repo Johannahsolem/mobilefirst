@@ -11,7 +11,7 @@ body{
 
 /*SIDENS HOVEDOVERSKRIFT*/
 .sideoverskrift{
-    margin: 10px auto 100px;
+    margin: 100px auto 80px;
     text-align: center;
     max-width: 820;
     position: relative;
@@ -53,11 +53,10 @@ main .topbillede{
     height:500px;
 }
 
-/*BØLGER*/
-.bølger img{
+.topbillede img{
     width:100%;
     position:relative;
-    bottom:100px; /*Skubber bølgen op over billedet med position relative*/
+    top:400px; /*skubbe bølgen ned af*/
 }
 
 /*CARD STYLE: VORES UDVALG*/
@@ -107,8 +106,26 @@ main .topbillede{
 
 /*ØL MENU STYLES*/
 .ølmenu{
-    background-image: url(images/dåser.png);
+    background-image: url(images/dåser2.png); /*billede skal måske skiftes*/
     background-size: cover;
+    background-repeat: no-repeat;
 
-    height:1000px;
+    opacity: 0.4;
+
+    height:2000px;
+}
+
+.ølmenu > div:nth-child(4){ /*bølge i bunden*/
+    position:relative;
+    top:1750px;
+}
+
+/*FOOTER STYLES*/
+footer{
+    background-color: #2f667a;
+    height:500px;
+}
+
+footer div:first-child img{
+    bottom:100px;
 }
