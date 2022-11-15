@@ -10,10 +10,8 @@ header{
     position: fixed;
     background-color: #0E1E24;
     width: 100%;
-    z-index: 9;
+    z-index: 1;
     height: 100px;
-
-
 }
 
 header img{
@@ -50,7 +48,7 @@ header .navmobil{
 .topbillede img {
     width: 100%;
     position: relative;
-    top: 250px;
+    top: 500px;
     /*skubbe bølgen ned af*/
 }
 
@@ -71,6 +69,10 @@ footer > section{
 footer h2{
     font-size:21pt;
     padding-bottom:10px;
+}
+
+footer li{
+    list-style: none;
 }
 
 /*FOOTER BØLGER*/
