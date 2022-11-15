@@ -12,41 +12,7 @@
         font-size: 14pt;
     }
 
-/*HEADER*/
-header{
-    border-bottom: #CEA948 solid 4px;
-    position: fixed;
-    background-color: #0E1E24;
-    width: 100%;
-    z-index: 1;
-    height: 100px;
-}
 
-header img{
-    position: relative;
-    float: left;
-}
-nav a{
-    text-decoration: none;
-    color: #CEA948;
-    margin-right: 40px;
-    font-size: 16pt;
-    padding-bottom: 30px;
-    display: flex;
-    align-items: right;
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    padding-top: 50px;
-
-}
-
-nav a:hover{
-    text-decoration: underline;
-}
 
 /*Baggrundsbillede*/
 .baggrundbegivenheder{
@@ -57,6 +23,7 @@ width: 100%;
 height: 600px;
 }
 
+
 /*BØLGE*/
 .wave{
     position: relative;
@@ -66,6 +33,16 @@ height: 600px;
     height: 100px;
     margin-top: -80px;
 
+}
+
+/*BØLGE TO*/
+.waveto{
+    position: absolute; z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    margin-top: -80px;
 }
 
 /*Header skrift*/
@@ -110,15 +87,22 @@ height: 600px;
     width: 100%;
     height: 400px;
     align-items: center;
-    overflow: hidden;
 }
 
-.img{
-    width: 50%;
+.sektioner .container{
+    height:auto;
+    width:50%;
+    overflow:hidden;
 }
-.img:hover{
+
+.container > img{
+    width:100%;
+    display: block;
+    max-height: 400px;
+}
+.container:hover img{
     transform: scale(1.1);
-    transition: 1s;
+    transition: 2s;
 }
 
 
@@ -134,7 +118,6 @@ height: 600px;
 .button{
     color: #CEA948;
     background-color: #0F2127;
-    border: none;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -142,4 +125,12 @@ height: 600px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 20px;}
+
+.button:hover{
+    background-color: #2F667A;
+    color: #CEA948;
+    border-color: #CEA948;
+    transition: 0.5s;
+    border-style: solid;
+}
 

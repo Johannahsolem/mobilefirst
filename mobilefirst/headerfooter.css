@@ -10,7 +10,8 @@ header{
     position: fixed;
     background-color: #0E1E24;
     width: 100%;
-    z-index: 2;
+    z-index: 9;
+
     height: 100px;
 }
 
