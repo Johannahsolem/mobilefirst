@@ -16,9 +16,15 @@ header{
     border-bottom: #CEA948 solid 4px;
     position: fixed;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     background-color: #0E1E24;
     width: 100%;
     z-index: 2;
+=======
+    background-color:#0E1E24;
+    width: 100%;
+    z-index: 1;
+>>>>>>> Stashed changes
 =======
     background-color:#0E1E24;
     width: 100%;
@@ -54,9 +60,12 @@ nav a:hover{
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 header .navmobil{
     display:none;
 }
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 /*GENERELLE REGLER*/
@@ -70,13 +79,17 @@ p{
     padding: 30px;
     color:#CEA948;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     font-family:'Arsenal', sans-serif;
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 }
 h2{
    color:#CEA948;
    font-size: 40pt;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
    font-family: 'Playfair Display SC', serif;
    /*fontfamily*/
@@ -93,6 +106,8 @@ h2{
 #headerimg{
     padding-top:0;
 =======
+=======
+>>>>>>> Stashed changes
 }
 .contactus{
     justify-content: center;
@@ -101,6 +116,9 @@ h2{
     width: 500px;
 }
 #headerimg{
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     background-image: url(images/dåseølheader.png);
     width: 100%;
@@ -110,6 +128,7 @@ h2{
     background-size: cover;
 }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 
 /*kontaktformular*/
@@ -122,6 +141,9 @@ h2{
 =======
 /*kontaktformular*/
 >>>>>>> Stashed changes
+=======
+/*kontaktformular*/
+>>>>>>> Stashed changes
 .contactformular{
     border-style:solid;
     border-color:#CEA948;
@@ -129,7 +151,11 @@ h2{
     position: relative;
     display: flex;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width:123%;
+=======
+    width:50%;
+>>>>>>> Stashed changes
 =======
     width:50%;
 >>>>>>> Stashed changes
@@ -226,7 +252,10 @@ h2{
     border-radius: 22px;
     height: 500px;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width:80%;
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     margin-bottom: 100px;
@@ -239,17 +268,23 @@ h2{
 
 .kortudvalgbar div:first-child {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 100%;
 }
 
 .kortudvalgbar div:first-child img {
     width: 110%;
 =======
+=======
+>>>>>>> Stashed changes
     width: 120%;
 }
 
 .kortudvalgbar div:first-child img {
     width: 100%;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     height: 100%;
 
@@ -263,7 +298,11 @@ h2{
     justify-content: center;
     flex-direction: column;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     text-align:left;
+=======
+    text-align: center;
+>>>>>>> Stashed changes
 =======
     text-align: center;
 >>>>>>> Stashed changes
@@ -271,6 +310,7 @@ h2{
 
 }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 
 
@@ -282,6 +322,8 @@ h2{
 
 
 =======
+=======
+>>>>>>> Stashed changes
 .kortudvalgbar div:nth-child(2) h1 {
     margin-bottom: 20px;
     /*font-family: ???*/
@@ -289,6 +331,9 @@ h2{
 
 /*.kortudvalg div:nth-child(2) p{ ARBEJD PÅ SENERE
 }*/
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 
@@ -296,6 +341,7 @@ h2{
 .kortudvalgshop {
     display: flex;
     flex-direction: row;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     border: 1px solid #cea948;
     background-color: #204653;
@@ -311,6 +357,8 @@ h2{
 .kortudvalgshop div:first-child {
     width: 60%;
 =======
+=======
+>>>>>>> Stashed changes
 
     border: 1px solid #cea948;
     background-color: #204653;
@@ -328,13 +376,22 @@ h2{
 
 .kortudvalgshop div:first-child {
     width: 65%;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     height: 100%;
 }
 
 .kortudvalgshop div:first-child img {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     height: 100%;
+=======
+    width: 1;
+    height: 100%;
+
+>>>>>>> Stashed changes
 =======
     width: 1;
     height: 100%;
@@ -347,7 +404,10 @@ h2{
 
 .kortudvalgshop div:nth-child(2) {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width:130%;
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     display: flex;
@@ -360,6 +420,7 @@ h2{
 }
 
 .kortudvalgshop div:nth-child(2) h1 {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     margin-top: 35px;
     margin-bottom: 20px;
@@ -465,6 +526,10 @@ img.to-bølger-omvendt {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+=======
+    margin-bottom: 20px;
+    /*font-family: ???*/
+>>>>>>> Stashed changes
 =======
     margin-bottom: 20px;
     /*font-family: ???*/
