@@ -83,7 +83,7 @@ p{
 .overskrift:before {
     content: '';
     display: block;
-    width: 300px;
+    width: 400px;
     height: 1px;
 
     background: #CEA948;
@@ -95,7 +95,7 @@ p{
 .overskrift:after {
     content: '';
     display: block;
-    width: 300px;
+    width: 400px;
     height: 1px;
 
     background: #CEA948;
@@ -117,7 +117,7 @@ p{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 550px;
+    height: 500px;
 }
 
 .billedeto{
@@ -138,8 +138,12 @@ p{
     padding: 50px 30px;
 }
 
+.divto p{
+    margin-bottom:15px;
+}
+
 .divto h1{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /*BØLGE TO*/
