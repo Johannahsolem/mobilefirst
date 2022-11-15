@@ -7,13 +7,46 @@
 /*GENERELLE REGLER*/
 body{
     background-color: #0E1E24;
-    color:#CEA948;
 }
+
 p{
     line-height: 1.3;
     font-size: 14pt;
     font-family: 'Arsenal', sans-serif;
     letter-spacing: 0.7px;
+}
+
+/*TOP BILLEDE*/
+main .topbillede {
+    background-image: url(images/velkommen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width:100%;
+    height: 700px;
+
+}
+
+/*BØLGER*/
+.topbillede img {
+    width: 100%;
+    position: relative;
+    top: 450px;
+    /*skubbe bølgen ned af*/
+}
+
+.topbillede h1{
+    font-size:40pt;
+    color:#cea948;
+
+    position:relative;
+    top:300px;
+    padding-left:15%;
+
+    display:flex;
+    align-items: center;
+    text-align: center;
+    
 }
 
 /*Button*/
@@ -48,28 +81,61 @@ p{
     margin-bottom: 100px;
     margin-right: 10%;
     margin-left: 10%;
+    margin-top:7%;
 }
 
-.cardsforside div:first-child {
-    width: 125%;
-    flex-wrap: wrap;
-}
-
-.cardsforside div:first-child img {
+/*CARDS BILLED STYLES*/
+.cardsforside div:first-child img, div:nth-child(2) img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
     border: 2px solid #cea948;
-
 }
 
-.cardsforside div:nth-child(2) {
+/*CARDS TEXT STYLES*/
+.cardsforside .textforside {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: left;
     padding: 50px 30px;
 
+    width: 50%;
 }
 
+.instacontainer{
+    display: flex;
+    justify-content:space-around;
+  /*  flex-wrap; wrap;*/
+  padding: 1px;
+  margin: -10px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius:22px;
+}
+
+.instacontainer div{
+width: 350px;
+height: 350px;
+text-align:center;
+margin:3px;
+border-radius:22px;
+}
+
+.secondinstacontainer{
+    border-radius:22px;
+    display: flex;
+    justify-content: space-around;
+  /*  flex-wrap; wrap;*/
+    padding-bottom: 3px;
+    border-radius:10px;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.secondinstacontainer div{
+width: 350px;
+height: 350px;
+text-align:center;
+margin:3px;
+border-radius:22px;
+}
 
