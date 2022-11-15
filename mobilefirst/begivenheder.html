@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Begivenheder</title>
     <link rel="stylesheet" href="stylesbegivnheder.css">
+    <link rel="stylesheet" href="headerfooter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal&family=Playfair+Display+SC&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -18,7 +20,7 @@
             <a href="omos.html">Om os</a>
             <a href="øl.html">Ølspecialiteter</a>
             <a href="begivenheder.html">Begivenheder</a>
-            <a href="">Kontakt</a>
+            <a href="contact.html">Kontakt</a>
         </nav>
 
         <nav class="navmobil"></nav>
@@ -41,7 +43,7 @@
 
 <!--Sektion 1-->
 <section class=sektioner>
-    <div class="img"><img src="images/hygge.png" alt=""></div>
+    <div class="container"><img src="images/hygge.png" alt=""></div>
 <div class="text">
     <h2>Hygge</h2>
     <p>Vi byder ikke kun på gode øl og god stemning hos Væskebalancen. Om det er brætspilsaften med studiegruppen eller en fodboldkamp med drengene på fladskærm, så har vi det. </p>
@@ -54,19 +56,18 @@
         <h2>Brætspil</h2>
         <p>I en tid, hvor størstedelen af vores kommunikation foregår gennem en skærm er der noget specielt ved at bruge tid med venner og kigge dem man holder af i øjnene. Hvorfor ikke kombinere det med et brætspil og en specialøl? Det lyder som en perfekt fredag aften i vores ører. </p>
     </div>
-    <div class="img"><img src="images/brætspil.png" alt=""></div>
+    <div class="container"><img src="images/brætspil.png" alt=""></div>
 </section>
 
-<section class="wave"><img src="images/bølger/en-bølge.svg" alt="wave"></section>
+<section class="waveto"><img src="images/bølger/en-bølge.svg" alt="wave"></section>
 
-</section>
 <!--Sektion 3-->
 <section class=sektioner>
-    <div class="img"><img src="images/ølsmagninger.png" alt=""></div>
+    <div class="container"><img src="images/ølsmagninger.jpg" alt=""></div>
     <div class="text">
         <h2>Ølsmagninger</h2>
         <p>Derudover tilbyder vi også ølsmagninger ud-af-huset. Det kan passe til både den næste firmafest eller polterabend. Skriv gerne en besked eller ring til os med jeres ønsker - det praktiske finder I inde under kontaktsiden. </p>
-        <button class="button" type="button">Kontakt os</button>
+        <a href="contact.html" class="button">Kontakt os</a>
     </div>
 </section>
 
@@ -76,10 +77,50 @@
             <h2>Fodbold</h2>
             <p>Hvis det lille kollegieværelse bliver for småt til fredagens kamp, så kom forbi hos os. Vi ser de fleste kampe på fladskærm. Fodbold, glade venner og en kold fadøl - whats not to like? </p>
         </div>
-        <div class="img"><img src="images/fodbold.png" alt=""></div>
+        <div class="container"><img src="images/fodbold.png" alt=""></div>
     </section>
-</section>
 
+    <footer>
+        <img src="images/bølger/to-bølger-omvendt.svg" class="to-bølger-omvendt" alt="omvendte bølger">
+        <section>
+            <section class="socials">
+                <h1>Væskebalancen bar</h1>
+    
+                <div class="ikoner">
+                    <a href="#"><i class="fa-brands fa-square-facebook fa-3x"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-3x"></i></a>
+                    <a href="#"><i class="fa-brands fa-untappd fa-3x"></i></a>
+                </div>
+    
+            </section>
+    
+            <section class="adresse-tlf">
+                <div>
+                    <h2>Adresse</h2>
+                    <p>Jægergårdsgade 2A, kælderen, 8000 Aarhus</p>
+                </div>
+    
+                <div>
+                    <h2>Telefonnummer</h2>
+                    <p><a href="tel:+4560578452">+45 60 57 84 52</a></p>
+                </div>
+            </section>
+    
+            <div>
+                <h2>Åbningstider</h2>
+                <ul>
+                    <p>Mandag: <time>14:00</time> - <time>00:00</time></p>
+                    <p>Tirsdag: <time>14:00</time> - <time>00:00</time></p>
+                    <p>Onsdag: <time>14:00</time> - <time>00:00</time></p>
+                    <p>Torsdag: <time>14:00</time> - <time>00:00</time></p>
+                    <p>Fredag: <time>12:00</time> - <time>02:00</time></p>
+                    <p>Lørdag: <time>12:00</time> - <time>02:00</time></p>
+                    <p>Søndag: <time>14:00</time> - <time>22:00</time></p>
+                </ul>
+            </div>
+        </section>
+
+    </footer>
     
 </body>
 </html>

@@ -110,7 +110,7 @@ p{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
+    text-align:left;
 
     background-color: #204653;
     width: 50%;
@@ -119,6 +119,16 @@ p{
 
 .divto h1{
     margin-bottom: 10px;
+}
+
+/*BØLGE TO*/
+.wavetwo{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+    bottom: 40px;
 }
 
 /*TREDJE SECTION MED TEKST OG BAGGRUNDSBILLEDE*/
@@ -130,8 +140,11 @@ p{
     height: 600px;
 }
 .divtre p{
-    text-align: center;
+    text-align: left;
     padding-right: 800px;
     margin-top: 50px;
     padding-top: 60px;
+    padding-left: 50px;
 }
+
+/*RESPONSIV*/
