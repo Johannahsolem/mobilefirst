@@ -103,6 +103,7 @@ main .topbillede {
     width: 50%;
 }
 
+/*INSTAGRAM STYLES*/
 .instacontainer{
     display: flex;
     justify-content:space-around;

@@ -1,221 +1,194 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-h1{
+/*h1{
     margin-top: 15px;
     align-items: center;
     justify-content: center;
     margin-left: 28px;
     font-size: 20pt;
-}
-/*HEADER*/
-header{
-    border-bottom: #CEA948 solid 4px;
-    position: fixed;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    background-color: #0E1E24;
-    width: 100%;
-    z-index: 2;
-=======
-    background-color:#0E1E24;
-    width: 100%;
-    z-index: 1;
->>>>>>> Stashed changes
-=======
-    background-color:#0E1E24;
-    width: 100%;
-    z-index: 1;
->>>>>>> Stashed changes
-    height: 100px;
-}
+}*/
 
-header img{
-    position: relative;
-    float: left;
-}
-nav a{
-    text-decoration: none;
-    color: #CEA948;
-    margin-right: 40px;
-    font-size: 16pt;
-    padding-bottom: 30px;
-    display: flex;
-    align-items: right;
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    padding-top: 50px;
-
-}
-
-nav a:hover{
-    text-decoration: underline;
-}
-
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-header .navmobil{
-    display:none;
-}
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 /*GENERELLE REGLER*/
-body{
+body {
     background-color: #0E1E24;
-    color:#CEA948;
-    justify-content: center;
+    color: #CEA948;
 }
 
-p{
-    padding: 30px;
-    color:#CEA948;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    font-family:'Arsenal', sans-serif;
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-}
-h2{
-   color:#CEA948;
-   font-size: 40pt;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-   font-family: 'Playfair Display SC', serif;
-   /*fontfamily*/
-}
-.contactus{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    width: 700px;
-    
+
+h2 {
+    color: #CEA948;
+    font-size: 40pt;
+    font-family: 'Playfair Display SC', serif;
+    /*fontfamily*/
 }
 
-#headerimg{
-    padding-top:0;
-=======
-=======
->>>>>>> Stashed changes
-}
-.contactus{
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    width: 500px;
-}
-#headerimg{
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
+.topbillede {
     background-image: url(images/dåseølheader.png);
     width: 100%;
-    height: 420px;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    position: relative;
+    top: 100px;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+/*SIDENS HOVEDOVERSKRIFT*/
+.sideoverskrift {
+    margin: 200px auto 80px;
+    text-align: center;
+    max-width: 820;
+    position: relative;
+
+    color: #CEA948;
+    font-size: 30pt;
+}
+
+.sideoverskrift:before {
+    content: '';
+    display: block;
+    width: 300px;
+    height: 1px;
+
+    background: #CEA948;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+
+.sideoverskrift:after {
+    content: '';
+    display: block;
+    width: 300px;
+    height: 1px;
+
+    background: #CEA948;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+}
 
 /*kontaktformular*/
-.contact{
-    display:flex;
+
+.contact {
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    height:800px;
+
+    padding:150px;
+
 }
-=======
-/*kontaktformular*/
->>>>>>> Stashed changes
-=======
-/*kontaktformular*/
->>>>>>> Stashed changes
-.contactformular{
-    border-style:solid;
-    border-color:#CEA948;
-    border-radius:10px;
-    position: relative;
+
+.contactus p {
     display: flex;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    width:123%;
-=======
-    width:50%;
->>>>>>> Stashed changes
-=======
-    width:50%;
->>>>>>> Stashed changes
-    height:100%;
-    display: grid;
-    grid-template-columns:repeat;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    margin-bottom:50px;
+    justify-content: center;
+    text-align: center;
+
+    position: relative;
+    top:100px;
+    width: 100%;
+    height:225px;
+
+    padding-left:100px;
+    padding-right:100px;
+    
 }
 
-
-
-.field{
-    width:400px;
-    height:40px;
-    margin-top:20px;
-    padding-left:10px;
-    padding-right:10px;
+/*kontaktformular*/
+.contactformular {
     border: 1px solid #cea948;
-    border-radius:8px;
+    border-radius: 10px;
+    background-color: #0E1E24;
+
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-bottom: 200px;
+
+    padding:50px;
+    padding-left: 100px;
+    padding-right:100px;
+
+}
+
+.field {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    border: 1px solid #cea948;
+    border-radius: 8px;
+
     outline: none;
     display: flex;
-    display: grid;
-    grid-template-columns:repeat;
-    background-color:#2f667a;
-    color:#cea948;
-    font-size:12pt bold;
+    background-color: #2f667a;
+    color: #cea948;
+    font-size: 16pt bold;
 
 
 }
-.field-textarea{
+
+.field-textarea {
+    height: 300px;
+    width: 100%;
+
     margin-top: 20px;
-    height:150px;
-    padding-top:10px;
-    width: 400px;
-    border-radius:8px;
-    border:1 px solid #cea948;
-    background-color:#2f667a;
-    color:#cea948;
-    font-size:12pt bold;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    
     border: 1px solid #cea948;
+    border-radius: 8px;
+    background-color: #2f667a;
+    color: #cea948;
+
+    font-size: 12pt bold;
 
 }
-.btn{
-    border-radius:20px;
-    color:#cea948;
-    margin-top:18px;
-    padding:10px;
-    background-color:#2f667a;
-    font-size: 11pt;
-   justify-content: center;
-    border: none;
-    cursor:pointer;
-    display: flex;
-    width: 70px;
-    border: 1px solid #cea948;
-    margin-bottom:20px ;
 
+.btn {
+    display: flex;
+    justify-content: center;
+
+    color: #cea948;
+    background-color: #2f667a;
+    font-size: 12pt;
+
+    border: none;
+    cursor: pointer;
+
+    width: 15%;
+    border: 1px solid #cea948;
+    border-radius: 20px;
+
+    margin-top: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+    transition:0.5s;
+}
+
+.btn:hover{
+    background-color: #0E1E24;
 }
 
 
@@ -223,27 +196,14 @@ h2{
 .topbillede img {
     width: 100%;
     position: relative;
-    top: 430px;
+    top: 400px;
     /*skubbe bølgen ned af*/
 }
 
-.en-bølge-omvendt img {
-    position: relative;
-    bottom: 30px;
-}
 
-.en-bølge img {
-    position: relative;
-    bottom: 90px;
-}
-
-.to-bølger-omvendt {
-    position: relative;
-    top: 100px;
-}
 
 /*kortudvalg til baren*/
-.kortudvalgbar {
+/*.kortudvalgbar {
     display: flex;
     flex-direction: row;
     border: 1px solid #cea948;
@@ -251,13 +211,7 @@ h2{
     color: #cea948;
     border-radius: 22px;
     height: 500px;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     width:80%;
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     margin-bottom: 100px;
     margin-right: 10%;
     margin-left: 10%;
@@ -266,26 +220,16 @@ h2{
     
 }
 
-.kortudvalgbar div:first-child {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+.kortudvalgbar .textcontainer {
     width: 100%;
 }
 
-.kortudvalgbar div:first-child img {
-    width: 110%;
-=======
-=======
->>>>>>> Stashed changes
+.kortudvalgbar img {
     width: 120%;
 }
 
-.kortudvalgbar div:first-child img {
+.kortudvalgbar img {
     width: 100%;
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     height: 100%;
 
     border-radius: 20px;
@@ -293,247 +237,123 @@ h2{
 
 }
 
-.kortudvalgbar div:nth-child(2) {
+.kortudvalgbar .textcontainer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     text-align:left;
-=======
     text-align: center;
->>>>>>> Stashed changes
-=======
     text-align: center;
->>>>>>> Stashed changes
     padding: 50px 30px;
 
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 
 
 .kortudvalgbar div:nth-child(2) h1 {
     padding-top: 0px;
     margin-bottom: 25px;
-    /*font-family: ???*/
-}
-
-
-=======
-=======
->>>>>>> Stashed changes
-.kortudvalgbar div:nth-child(2) h1 {
-    margin-bottom: 20px;
-    /*font-family: ???*/
-}
+    /*font-family: ???
+}/*
 
 /*.kortudvalg div:nth-child(2) p{ ARBEJD PÅ SENERE
 }*/
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
 
-/*kortudvalg til shoppen*/
-.kortudvalgshop {
+/*kortudvalg til shoppen og baren*/
+.kortudvalgshop,
+.kortudvalgbar {
     display: flex;
     flex-direction: row;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     border: 1px solid #cea948;
     background-color: #204653;
+
     color: #cea948;
     border-radius: 22px;
-    height: 500px;
-    margin-bottom: 100px;
+
+    height: 400px;
+
+    margin-bottom: 70px;
     margin-right: 10%;
     margin-left: 10%;
-    text-align:left; 
 }
 
-.kortudvalgshop div:first-child {
-    width: 60%;
-=======
-=======
->>>>>>> Stashed changes
-
-    border: 1px solid #cea948;
-    background-color: #204653;
-    color: #cea948;
-
-    border-radius: 22px;
-    height: 500px;
-
-    margin-bottom: 100px;
-
-    margin-right: 10%;
-    margin-left: 10%;
-    text-align:left;
-}
-
-.kortudvalgshop div:first-child {
-    width: 65%;
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+.kortudvalgbar img {
     height: 100%;
-}
+    width: 100%;
 
-.kortudvalgshop div:first-child img {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    height: 100%;
-=======
-    width: 1;
-    height: 100%;
-
->>>>>>> Stashed changes
-=======
-    width: 1;
-    height: 100%;
-
->>>>>>> Stashed changes
     border-radius: 20px;
     border: 2px solid #cea948;
-
 }
 
-.kortudvalgshop div:nth-child(2) {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    width:130%;
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+.kortudvalgshop img {
+    height: 100%;
+    width: 135%;
+
+    border-radius: 20px;
+    border: 2px solid #cea948;
+}
+
+.kortudvalgshop .textcontainer,
+.kortudvalgbar .textcontainer {
+    width: 50%;
+    height: 100%;
+
     display: flex;
     justify-content: center;
     flex-direction: column;
 
-    text-align: center;
-    padding: 50px 30px;
-
+    line-height: 20px;
+    text-align: left;
+    padding: 50px 50px;
 }
 
-.kortudvalgshop div:nth-child(2) h1 {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    margin-top: 35px;
+.textcontainer h1 {
     margin-bottom: 20px;
-    padding:20px ;
-
 }
 
+.find {
+    margin-bottom: 40px;
+}
 
 /*Åbningstider*/
 
-.openinghours{
+.openinghours {
     display: flex;
     justify-content: center;
-    width:100%;
-    height:800px;
-    margin-bottom:20px;
+    width: 100%;
+    height: auto;
+
 }
 
-.firsttext{
+.firsttext {
     width: 50%;
     height: 450px;
     color: #CEA948;
-    background-color:#204653;
+    background-color: #204653;
     text-align: center;
+
+    margin-top: 50px;
 }
 
-.secondtext{
+.secondtext {
     width: 50%;
     height: 450px;
     color: #CEA948;
     background-color: #2F667A;
     text-align: center;
+
+    margin-top: 50px;
 }
 
-.openinghours h2{
-margin-top: 30px;
-text-align: center;
-font-size:28pt;
+.openinghours h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28pt;
 }
 
-.openinghours p{
+.openinghours p {
     padding: 10px;
     font-size: 14pt;
 }
-
-
-/*FOOTER STYLES*/
-footer > section{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    background-color: #2f667a;
-    height: auto;
-    padding:10%;
-    
-    color:#CEA948;
-
-}
-
-footer h2{
-    font-size:21pt;
-    padding-bottom:10px;
-}
-
-footer li{
-    list-style: none;
-}
-
-/*FOOTER BØLGER*/
-img.to-bølger-omvendt {
-
-    position: relative;
-    top: 100px;
-}
-
-/*FOOTER IKONER*/
-.socials{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-
-    padding-top:2%;
-}
-
-.socials h1{
-    font-size: 30pt;
-}
-
-.fa-brands{
-    margin-right:20px;
-    color:#CEA948;
-}
-
-.fa-brands:hover{
-    color: #EDC458;
-}
-
-
-/*FOOTER ADRESSE OG TLF*/
-.adresse-tlf{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-=======
-    margin-bottom: 20px;
-    /*font-family: ???*/
->>>>>>> Stashed changes
-=======
-    margin-bottom: 20px;
-    /*font-family: ???*/
->>>>>>> Stashed changes
-}
-
-
