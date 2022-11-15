@@ -168,33 +168,36 @@ ol{
     max-width: 500px;
     position: relative;
 
+    background-color: #204653;
     color: #CEA948;
-    font-size: 12pt;
+    font-size: 16pt;
 }
 
 .faste-øl h2:before, .nyeste-øl h2:before {
     content: '';
     display: block;
-    width: 300px;
+    width: 100px;
     height: 1px;
 
     background: #CEA948;
     position: absolute;
-    left: 5%;
-    top: 50%;
+    left: 10%;
+    top: 40%;
 }
 
 .faste-øl h2:after, .nyeste-øl h2:after {
     content: '';
     display: block;
-    width: 300px;
+    width: 100px;
     height: 1px;
 
     background: #CEA948;
     position: absolute;
     right: 10%;
-    top: 50%;
+    top: 40%;
 }
+
+
 
 
 
