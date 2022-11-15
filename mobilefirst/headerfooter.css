@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+body p{
+    font-family: 'Arsenal', sans-serif;
+    letter-spacing:0.5px;
+    font-size: 12pt;
+}
+
+body, h1, h2, h3{
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing:0.5px;
+}
+
 /*HEADER*/
 header{
     border-bottom: #CEA948 solid 4px;
@@ -48,7 +59,7 @@ header .navmobil{
 .topbillede img {
     width: 100%;
     position: relative;
-    top: 500px;
+    top: 600px;
     /*skubbe bølgen ned af*/
 }
 
@@ -115,4 +126,7 @@ img.to-bølger-omvendt {
 }
 
 /*FOOTER ÅBNINGSTIDER*/
+footer ul li{
+    font-family: 'Arsenal', sans-serif;
+}
 
