@@ -15,9 +15,15 @@ h1{
 header{
     border-bottom: #CEA948 solid 4px;
     position: fixed;
+<<<<<<< Updated upstream
     background-color: #0E1E24;
     width: 100%;
     z-index: 2;
+=======
+    background-color:#0E1E24;
+    width: 100%;
+    z-index: 1;
+>>>>>>> Stashed changes
     height: 100px;
 }
 
@@ -47,9 +53,12 @@ nav a:hover{
     text-decoration: underline;
 }
 
+<<<<<<< Updated upstream
 header .navmobil{
     display:none;
 }
+=======
+>>>>>>> Stashed changes
 /*GENERELLE REGLER*/
 body{
     background-color: #0E1E24;
@@ -60,11 +69,15 @@ body{
 p{
     padding: 30px;
     color:#CEA948;
+<<<<<<< Updated upstream
     font-family:'Arsenal', sans-serif;
+=======
+>>>>>>> Stashed changes
 }
 h2{
    color:#CEA948;
    font-size: 40pt;
+<<<<<<< Updated upstream
    font-family: 'Playfair Display SC', serif;
    /*fontfamily*/
 }
@@ -79,6 +92,16 @@ h2{
 
 #headerimg{
     padding-top:0;
+=======
+}
+.contactus{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 500px;
+}
+#headerimg{
+>>>>>>> Stashed changes
     background-image: url(images/dåseølheader.png);
     width: 100%;
     height: 420px;
@@ -87,6 +110,7 @@ h2{
     background-size: cover;
 }
 
+<<<<<<< Updated upstream
 
 /*kontaktformular*/
 .contact{
@@ -95,13 +119,20 @@ h2{
     flex-direction: column;
     align-items: center;
 }
+=======
+/*kontaktformular*/
+>>>>>>> Stashed changes
 .contactformular{
     border-style:solid;
     border-color:#CEA948;
     border-radius:10px;
     position: relative;
     display: flex;
+<<<<<<< Updated upstream
     width:123%;
+=======
+    width:50%;
+>>>>>>> Stashed changes
     height:100%;
     display: grid;
     grid-template-columns:repeat;
@@ -194,7 +225,10 @@ h2{
     color: #cea948;
     border-radius: 22px;
     height: 500px;
+<<<<<<< Updated upstream
     width:80%;
+=======
+>>>>>>> Stashed changes
     margin-bottom: 100px;
     margin-right: 10%;
     margin-left: 10%;
@@ -204,11 +238,19 @@ h2{
 }
 
 .kortudvalgbar div:first-child {
+<<<<<<< Updated upstream
     width: 100%;
 }
 
 .kortudvalgbar div:first-child img {
     width: 110%;
+=======
+    width: 120%;
+}
+
+.kortudvalgbar div:first-child img {
+    width: 100%;
+>>>>>>> Stashed changes
     height: 100%;
 
     border-radius: 20px;
@@ -220,11 +262,16 @@ h2{
     display: flex;
     justify-content: center;
     flex-direction: column;
+<<<<<<< Updated upstream
     text-align:left;
+=======
+    text-align: center;
+>>>>>>> Stashed changes
     padding: 50px 30px;
 
 }
 
+<<<<<<< Updated upstream
 
 
 .kortudvalgbar div:nth-child(2) h1 {
@@ -234,12 +281,22 @@ h2{
 }
 
 
+=======
+.kortudvalgbar div:nth-child(2) h1 {
+    margin-bottom: 20px;
+    /*font-family: ???*/
+}
+
+/*.kortudvalg div:nth-child(2) p{ ARBEJD PÅ SENERE
+}*/
+>>>>>>> Stashed changes
 
 
 /*kortudvalg til shoppen*/
 .kortudvalgshop {
     display: flex;
     flex-direction: row;
+<<<<<<< Updated upstream
     border: 1px solid #cea948;
     background-color: #204653;
     color: #cea948;
@@ -253,18 +310,46 @@ h2{
 
 .kortudvalgshop div:first-child {
     width: 60%;
+=======
+
+    border: 1px solid #cea948;
+    background-color: #204653;
+    color: #cea948;
+
+    border-radius: 22px;
+    height: 500px;
+
+    margin-bottom: 100px;
+
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align:left;
+}
+
+.kortudvalgshop div:first-child {
+    width: 65%;
+>>>>>>> Stashed changes
     height: 100%;
 }
 
 .kortudvalgshop div:first-child img {
+<<<<<<< Updated upstream
     height: 100%;
+=======
+    width: 1;
+    height: 100%;
+
+>>>>>>> Stashed changes
     border-radius: 20px;
     border: 2px solid #cea948;
 
 }
 
 .kortudvalgshop div:nth-child(2) {
+<<<<<<< Updated upstream
     width:130%;
+=======
+>>>>>>> Stashed changes
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -275,6 +360,7 @@ h2{
 }
 
 .kortudvalgshop div:nth-child(2) h1 {
+<<<<<<< Updated upstream
     margin-top: 35px;
     margin-bottom: 20px;
     padding:20px ;
@@ -379,6 +465,10 @@ img.to-bølger-omvendt {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+=======
+    margin-bottom: 20px;
+    /*font-family: ???*/
+>>>>>>> Stashed changes
 }
 
 
