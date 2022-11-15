@@ -54,7 +54,7 @@ main .topbillede {
     background-size: cover;
 
     width:100%;
-    height: 600px;
+    height: 700px;
 
 }
 
@@ -67,7 +67,7 @@ main .topbillede {
 
 img.en-bølge {
     position: relative;
-    top: 725px;
+    top:40px;
 }
 
 
@@ -75,7 +75,6 @@ img.en-bølge {
 .kortudvalg {
     display: flex;
     flex-direction: row;
-
 
     border: 1px solid #cea948;
     background-color: #204653;
@@ -109,14 +108,12 @@ img.en-bølge {
     justify-content: center;
     flex-direction: column;
 
-    text-align: center;
     padding: 50px 30px;
 
 }
 
 .kortudvalg div:nth-child(2) h1 {
     margin-bottom: 20px;
-    /*font-family: ???*/
 }
 
 /*.kortudvalg div:nth-child(2) p{ ARBEJD PÅ SENERE
@@ -131,14 +128,17 @@ img.en-bølge {
     background-repeat: no-repeat;
     /*opacity: 0.4;*/
 
-    height: 1300px;
+    height: 1200px;
+    width:100%;
 
 }
 
 .ølliste{
     display:flex;
     justify-content: center;
+    justify-content: space-evenly;
     text-align: left;
+
 }
 
 .faste-øl, .nyeste-øl {
@@ -146,27 +146,32 @@ img.en-bølge {
     background-color: #204653;
     border:1px solid #CEA948;
 
-    width:100%;
     border-radius: 22px;
 
-    margin-right: 10%;
-    margin-left: 10%;
-
-
-
+    width:35%;
+    text-align:left;
 }
 
 .faste-øl > p, .nyeste-øl > p{
-    float:right;
-}
+    display: flex;
+    justify-content: right;
+    font-weight: 600;
 
-ol{
-    display:inline-block;
-    text-align: left;
 }
 
 ol li, .faste-øl > p, .nyeste-øl > p{
     padding:3% 5%; 
+    list-style: none;
+}
+
+ol li div:nth-child(2){
+    padding-right: 25%;
+}
+
+ol h3{
+    color:#EDC458;
+    font-size: 14pt;
+   
 }
 
 li > div:first-child{
@@ -178,14 +183,14 @@ li > div:first-child{
 /*ØL MENU OVERSKRIFTER*/
 
 .faste-øl h2, .nyeste-øl h2 {
-    margin: 50px 20px;
+    margin: 40px auto 10px;
     text-align: center;
-    max-width: 500px;
+    max-width: 600px;
     position: relative;
 
     background-color: #204653;
-    color: #CEA948;
-    font-size: 21pt;
+    color: #EDC458;
+    font-size: 30pt;
 }
 
 .faste-øl h2:before, .nyeste-øl h2:before {
@@ -194,10 +199,11 @@ li > div:first-child{
     width: 100px;
     height: 1px;
 
-    background: #CEA948;
+    background: #EDC458;
     position: absolute;
-    left: 10%;
-    top: 40%;
+    left: 5%;
+    top: 50%;
+
 }
 
 .faste-øl h2:after, .nyeste-øl h2:after {
@@ -206,10 +212,10 @@ li > div:first-child{
     width: 100px;
     height: 1px;
 
-    background: #CEA948;
+    background: #EDC458;
     position: absolute;
-    right: 10%;
-    top: 40%;
+    right:5%;
+    top: 50%;
 }
 
 
