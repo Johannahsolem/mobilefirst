@@ -4,6 +4,26 @@
     padding: 0;
 }
 
+/*NAV A STREG UNDER VED AKTIV SIDE*/
+nav a:first-child{
+    position:relative;
+    color:#CEA948;
+}
+
+nav a:first-child:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #CEA948;
+    transform-origin: left;
+    transform: scaleX(1);
+    text-decoration: underline;
+}
+
 /*GENERELLE REGLER*/
 body{
     background-color: #0E1E24;
@@ -42,7 +62,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100px;
+    height: 20px;
     bottom: 45px;
 }
 

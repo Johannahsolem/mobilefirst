@@ -12,6 +12,27 @@ main{
     height:auto;
 }
 
+/*NAV A STREG UNDER VED AKTIV SIDE*/
+nav a:nth-child(2){
+    position:relative;
+    color:#CEA948;
+}
+
+nav a:nth-child(2):before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #CEA948;
+    transform-origin: left;
+    transform: scaleX(1);
+    text-decoration: underline;
+}
+
+
 /*SIDENS HOVEDOVERSKRIFT*/
 .sideoverskrift {
     margin: 100px auto 80px;
@@ -123,10 +144,6 @@ img.en-bølge {
     margin-bottom: 20px;
 }
 
-/*.kortudvalg div:nth-child(2) p{ ARBEJD PÅ SENERE
-
-}*/
-
 /*ØL MENU STYLES*/
 .ølmenu {
     background-image: url(images/dåser2.png);
@@ -135,7 +152,7 @@ img.en-bølge {
     background-repeat: no-repeat;
     /*opacity: 0.4;*/
 
-    height: 1200px;
+    height: 1300px;
     width:100%;
 
 }
@@ -157,6 +174,9 @@ img.en-bølge {
 
     width:35%;
     text-align:left;
+
+    padding-bottom:40px;
+
 }
 
 .faste-øl > p, .nyeste-øl > p{
