@@ -4,42 +4,6 @@
     padding: 0;
 }
 
-/*HEADER*/
-header{
-    border-bottom: #CEA948 solid 4px;
-    position: fixed;
-    background-color: #0E1E24;
-    width: 100%;
-    z-index: 1;
-    height: 100px;
-}
-
-header img{
-    position: relative;
-    float: left;
-}
-nav a{
-    text-decoration: none;
-    color: #CEA948;
-    margin-right: 40px;
-    font-size: 16pt;
-    padding-bottom: 30px;
-    display: flex;
-    align-items: right;
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    padding-top: 50px;
-
-}
-
-nav a:hover{
-    text-decoration: underline;
-}
-
 /*GENERELLE REGLER*/
 body{
     background-color: #0E1E24;
@@ -142,22 +106,4 @@ p{
     padding-right: 800px;
     margin-top: 50px;
     padding-top: 60px;
-}
-
-/*FOOTER*/
-footer{
-    display: flex;
-    margin: 10%;
-}
-
-footer h1{
-    font-size: 18pt;
-}
-
-footer p{
-    font-size: 12pt;
-}
-
-footer h2{
-    font-size: 15pt;
 }
