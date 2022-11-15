@@ -60,11 +60,12 @@ body{
 p{
     padding: 30px;
     color:#CEA948;
-    font-family:Arsenal’, sans-serif;
+    font-family:'Arsenal', sans-serif;
 }
 h2{
    color:#CEA948;
    font-size: 40pt;
+   font-family: 'Playfair Display SC', serif;
    /*fontfamily*/
 }
 .contactus{
