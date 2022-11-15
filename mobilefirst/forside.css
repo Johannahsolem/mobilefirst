@@ -16,6 +16,39 @@ p{
     letter-spacing: 0.7px;
 }
 
+/*TOP BILLEDE*/
+main .topbillede {
+    background-image: url(images/velkommen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width:100%;
+    height: 700px;
+
+}
+
+/*BØLGER*/
+.topbillede img {
+    width: 100%;
+    position: relative;
+    top: 450px;
+    /*skubbe bølgen ned af*/
+}
+
+.topbillede h1{
+    font-size:40pt;
+    color:#cea948;
+
+    position:relative;
+    top:300px;
+    padding-left:15%;
+
+    display:flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
 /*Button*/
 .button{
     color: #CEA948;
@@ -48,28 +81,26 @@ p{
     margin-bottom: 100px;
     margin-right: 10%;
     margin-left: 10%;
+    margin-top:7%;
 }
 
-.cardsforside div:first-child {
-    width: 125%;
-    flex-wrap: wrap;
-}
-
-.cardsforside div:first-child img {
+/*CARDS BILLED STYLES*/
+.cardsforside div:first-child img, div:nth-child(2) img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
     border: 2px solid #cea948;
-
 }
 
-.cardsforside div:nth-child(2) {
+/*CARDS TEXT STYLES*/
+.cardsforside .textforside {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: left;
     padding: 50px 30px;
 
+    width: 50%;
 }
 
 .instacontainer{

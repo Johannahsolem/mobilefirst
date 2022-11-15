@@ -59,13 +59,6 @@ header .navmobil{
     display:none;
 }
 
-/*BØLGER*/
-.topbillede img {
-    width: 100%;
-    position: relative;
-    top: 600px;
-    /*skubbe bølgen ned af*/
-}
 
 /*FOOTER STYLES*/
 footer > section{
