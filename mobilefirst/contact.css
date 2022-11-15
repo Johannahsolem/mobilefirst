@@ -65,7 +65,7 @@ p{
 h2{
    color:#CEA948;
    font-size: 40pt;
-   font-family:‘Playfair Display SC’, serif;
+   /*fontfamily*/
 }
 .contactus{
     align-items: center;
@@ -378,3 +378,6 @@ img.to-bølger-omvendt {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+

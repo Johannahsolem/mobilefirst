@@ -78,3 +78,39 @@ p{
     padding: 50px 30px;
 
 }
+
+.instacontainer{
+    display: flex;
+    justify-content:space-around;
+  /*  flex-wrap; wrap;*/
+  padding: 1px;
+  margin: -10px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius:22px;
+}
+
+.instacontainer div{
+width: 350px;
+height: 350px;
+text-align:center;
+margin:3px;
+border-radius:22px;
+}
+
+.secondinstacontainer{
+    border-radius:22px;
+    display: flex;
+    justify-content: space-around;
+  /*  flex-wrap; wrap;*/
+    padding-bottom: 3px;
+    border-radius:10px;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.secondinstacontainer div{
+width: 350px;
+height: 350px;
+text-align:center;
+margin:3px;
+border-radius:22px;
+}
