@@ -53,7 +53,8 @@ main .topbillede {
     background-repeat: no-repeat;
     background-size: cover;
 
-    height: 500px;
+    width:100%;
+    height: 600px;
 
 }
 
@@ -155,15 +156,27 @@ img.en-bølge {
 
 }
 
+
+
 ol{
     display:inline-block;
     text-align: left;
 }
 
+ol li{
+    padding:3% 5%; 
+}
+
+li > div:first-child{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /*ØL MENU OVERSKRIFTER*/
 
 .faste-øl h2, .nyeste-øl h2 {
-    margin: 100px 20px;
+    margin: 80px 20px;
     text-align: center;
     max-width: 500px;
     position: relative;
