@@ -118,7 +118,6 @@ height: 600px;
 .button{
     color: #CEA948;
     background-color: #0F2127;
-    border: none;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -126,4 +125,12 @@ height: 600px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 20px;}
+
+.button:hover{
+    background-color: #2F667A;
+    color: #CEA948;
+    border-color: #CEA948;
+    transition: 0.5s;
+    border-style: solid;
+}
 
