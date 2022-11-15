@@ -7,8 +7,8 @@
 /*GENERELLE REGLER*/
 body{
     background-color: #0E1E24;
-    color:#CEA948;
 }
+
 p{
     line-height: 1.3;
     font-size: 14pt;
@@ -29,7 +29,7 @@ p{
     border-radius: 20px;}
 
 .button:hover{
-    background-color: #2F667A;
+    background-color: #204653;
     color: #CEA948;
     border-color: #CEA948;
     transition: 0.5s;
@@ -40,17 +40,12 @@ p{
 .cardsforside {
     display: flex;
     flex-direction: row;
-
-
     border: 1px solid #cea948;
     background-color: #204653;
     color: #cea948;
-
     border-radius: 22px;
     height: 500px;
-
     margin-bottom: 100px;
-
     margin-right: 10%;
     margin-left: 10%;
 }
@@ -63,7 +58,6 @@ p{
 .cardsforside div:first-child img {
     width: 100%;
     height: 100%;
-
     border-radius: 20px;
     border: 2px solid #cea948;
 
@@ -73,8 +67,7 @@ p{
     display: flex;
     justify-content: center;
     flex-direction: column;
-
-    text-align: center;
+    text-align: left;
     padding: 50px 30px;
 
 }
@@ -114,3 +107,4 @@ text-align:center;
 margin:3px;
 border-radius:22px;
 }
+
