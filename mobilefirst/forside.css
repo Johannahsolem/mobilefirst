@@ -205,23 +205,29 @@ main .topbillede {
 
 /*Maps*/
 .map{
--webkit-filter: grayscale(100%);
+filter: grayscale(100%);
 margin-top: 100px;
 }
 
 
 
 @media screen and (max-width:910px) {
+main .topbillede{
+    height:200px;
+}
+
 .cardsforside {
     display: flex;
     flex-direction: column;
+
     color: #cea948;
     border-radius: 22px;
-    /*margin-top: 20%;*/
+
     margin-bottom: 50px;
     margin-right: 8%;
     margin-left: 8%;
 }
+
 .imgforside{
     width: 100%;
     height: 230px;
@@ -229,6 +235,7 @@ margin-top: 100px;
     border: 2px solid #cea948;
     order: 1;
 }
+
 .textforside{
     order: 2;
     display: flex;
