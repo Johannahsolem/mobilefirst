@@ -20,7 +20,6 @@ main {
 
     /*TOP BILLEDE*/
     main .topbillede {
-        /*!!!!!!!!!FIKS DET HER!!!!!!!*/
         background-image: url(images/ølspecialiteter.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -58,13 +57,13 @@ main {
         position: relative;
 
         color: #CEA948;
-        font-size: 12pt;
+        font-size: 14pt;
     }
 
     .sideoverskrift:before {
         content: '';
         display: block;
-        width: 40px;
+        width: 35px;
         height: 1px;
 
         background: #CEA948;
@@ -76,7 +75,7 @@ main {
     .sideoverskrift:after {
         content: '';
         display: block;
-        width: 40px;
+        width: 35px;
         height: 1px;
 
         background: #CEA948;
@@ -93,7 +92,8 @@ main {
         color: #cea948;
 
         border-radius: 22px;
-        margin-bottom: 100px;
+        /*margin-top: 20%;*/
+        margin-bottom: 50px;
         margin-right: 5%;
         margin-left: 5%;
     }
@@ -118,8 +118,6 @@ main {
         flex-direction: column;
         text-align: center;
 
-
-
     }
 
     .kortudvalg div:nth-child(2) h1 {
@@ -135,7 +133,7 @@ main {
 
     /*ØL MENU STYLES*/
     .ølmenu {
-        background-image: url(images/dåser2.png);
+        background-image: url(images/dåser.png);
         background-size: cover;
         background-repeat: no-repeat;
 
@@ -355,8 +353,8 @@ main {
         border-radius: 22px;
         height: 500px;
 
+        /*margin-top: 25%;*/
         margin-bottom: 100px;
-
         margin-right: 10%;
         margin-left: 10%;
     }
