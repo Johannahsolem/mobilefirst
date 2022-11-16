@@ -128,39 +128,84 @@ main .topbillede {
     margin-bottom:20px;
 }
 
+/*Instagram overskrift*/
+
+.overskriftinstagram {
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    margin: 100px auto 10px;
+    max-width: 820px;
+    position: relative;
+
+    color: #CEA948;
+    font-size: 20pt;
+}
+
+.overskriftinstagram:before {
+    content: '';
+    display: block;
+    width: 250px;
+    height: 1px;
+
+    background: #CEA948;
+    position: absolute;
+    left: -12%;
+    top: 50%;
+}
+
+.overskriftinstagram:after {
+    content: '';
+    display: block;
+    width: 250px;
+    height: 1px;
+
+    background: #CEA948;
+    position: absolute;
+    right: -12%;
+    top: 50%;
+}
+
 /*INSTAGRAM STYLES*/
 .instacontainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     /*  flex-wrap; wrap;*/
-    padding: 1px;
-    margin: -10px;
     font-family: 'Open Sans', sans-serif;
     border-radius: 22px;
+    margin: 10px;
+    padding: 10px;
+}
+.instacontainer div{
+    margin: 10px;
+    padding: 10px;
 }
 
-.instacontainer div {
-    width: 350px;
-    height: 350px;
-    text-align: center;
-    margin: 3px;
-    border-radius: 22px;
+.instacontainer img{
+    border-radius: 20px;
 }
 
+
+/*ANDEN INSTA CONTAINER*/
 .secondinstacontainer {
     border-radius: 22px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     /*  flex-wrap; wrap;*/
-    padding-bottom: 3px;
-    border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.secondinstacontainer div {
-    width: 350px;
-    height: 350px;
-    text-align: center;
-    margin: 3px;
-    border-radius: 22px;
+.secondinstacontainer div{
+    margin: 10px;
+    padding: 10px;}
+
+.secondinstacontainer img{
+    border-radius: 20px;}
+
+/*Maps*/
+.map{
+-webkit-filter: grayscale(100%);
+margin-top: 100px;
+
 }
