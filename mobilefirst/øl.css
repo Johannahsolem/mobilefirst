@@ -91,7 +91,6 @@ main {
         color: #cea948;
 
         border-radius: 22px;
-        /*margin-top: 20%;*/
         margin-bottom: 50px;
         margin-right: 8%;
         margin-left: 8%;
@@ -194,6 +193,7 @@ main {
     ol h3 {
         color: #EDC458;
         font-size: 12pt;
+        padding-right:5px;
 
     }
 

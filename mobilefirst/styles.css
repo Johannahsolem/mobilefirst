@@ -144,6 +144,7 @@ p {
         color: #CEA948;
     }
 
+
     .sectionto, .sectiontre{
         display: flex;
         flex-direction: column;
@@ -240,7 +241,7 @@ p {
 
     /*OVERSKRIFT*/
     .overskrift {
-        margin: 200px auto 80px;
+        margin: 150px auto 80px;
         text-align: center;
         max-width: 820;
         position: relative;
