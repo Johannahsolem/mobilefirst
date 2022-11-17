@@ -79,7 +79,7 @@ nav a:nth-child(3):before {
     z-index: 1;
     width: 100%;
     height: 100px;
-    top:2500px;
+    top:2420px;
 }
 
 /*Header skrift*/
@@ -261,7 +261,7 @@ nav a:nth-child(3):before {
 
 .wavetre img{
     position: relative;
-    top: 370px;
+    top: 420px;
 }
 .baggrundbegivenheder{
     height: 300px;
