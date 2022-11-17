@@ -139,7 +139,7 @@ main .topbillede {
 .overskriftinstagram:before {
     content: '';
     display: block;
-    width: 250px;
+    width: 350px;
     height: 1px;
 
     background: #CEA948;
@@ -151,7 +151,7 @@ main .topbillede {
 .overskriftinstagram:after {
     content: '';
     display: block;
-    width: 250px;
+    width: 350px;
     height: 1px;
 
     background: #CEA948;
@@ -188,7 +188,7 @@ width:100%;
 
 
 .instacontainer img{
-    transition: transform 2s;
+    transition: transform 1s;
 }
 
 .instacontainer img:hover{
