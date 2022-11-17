@@ -69,7 +69,7 @@ nav a:nth-child(3):before {
     position: absolute;
     z-index: 1;
     width: 100%;
-    top:1600px;
+    top:1575px;
 }
 
 /*BØLGE TRE*/
@@ -78,7 +78,7 @@ nav a:nth-child(3):before {
     z-index: 1;
     width: 100%;
     height: 100px;
-    top: 2420px;
+    top: 2500px;
 }
 
 /*Header skrift*/
@@ -129,32 +129,30 @@ nav a:nth-child(3):before {
     flex-wrap: wrap;
 }
 
-.øverste-sektioner {
-    margin-bottom: 50px;
+.øverste-sektioner, .nederste-sektioner {
+    margin-bottom: 100px;
 }
 
 .sektioner .container {
     height: auto;
     width: 50%;
-    overflow: hidden;
     flex: 50%;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .container img {
     width: 100%;
     display: block;
-    max-height: 400px;
+    height: 400px;
     flex: 50%;
-    flex-wrap: wrap;
-
+ 
     transition: transform 2s;
 }
 
 .container:hover img {
     transform: scale(1.1);
 }
-
 
 .sektioner .text {
     width: 50%;
