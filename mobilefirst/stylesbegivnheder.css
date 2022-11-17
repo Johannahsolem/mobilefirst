@@ -69,8 +69,7 @@ nav a:nth-child(3):before {
     position: absolute;
     z-index: 1;
     width: 100%;
-    height: 100px;
-    margin-top: -80px;
+    top:1600px;
 }
 
 /*BØLGE TRE*/
@@ -79,7 +78,7 @@ nav a:nth-child(3):before {
     z-index: 1;
     width: 100%;
     height: 100px;
-    top:2420px;
+    top: 2420px;
 }
 
 /*Header skrift*/
@@ -130,8 +129,8 @@ nav a:nth-child(3):before {
     flex-wrap: wrap;
 }
 
-.nederste-sektioner {
-    margin-top: 100px;
+.øverste-sektioner {
+    margin-bottom: 50px;
 }
 
 .sektioner .container {
@@ -215,7 +214,7 @@ nav a:nth-child(3):before {
         display: block;
         order: 2;
         width: 100%;
-        height: 350px;
+        height: 370px;
         padding: 50px;
     }
 
@@ -241,12 +240,40 @@ nav a:nth-child(3):before {
         top: 50%;
     }
 
-.wavetre img{
-    position: relative;
-    top: 420px;
-}
-.baggrundbegivenheder{
-    height: 300px;
-    position: relative;
-}
+    .overskrift:after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 1px;
+
+        background: #CEA948;
+        position: absolute;
+        right: 8%;
+        top: 50%;
+    }
+
+    .øverste-sektioner {
+        margin-bottom: 50px;
+    }
+    
+    .nederste-sektioner{
+        margin-bottom:50px;
+    }
+
+    .wave{
+        top: 20px;
+    }
+
+    .waveto{
+        top:1590px;
+    }
+
+    .wavetre{
+        top: 2835px;
+    }
+
+    .baggrundbegivenheder {
+        height: 300px;
+        position: relative;
+    }
 }
