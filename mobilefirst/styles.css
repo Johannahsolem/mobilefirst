@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -91,7 +91,7 @@ p {
 @media screen and (max-width:910px) {
 
     /*BAGGRUNDSBILLEDE I TOPPEN*/
-    .billedeet{
+    .billedeet {
         background-size: cover;
         background-repeat: no-repeat;
 
@@ -103,7 +103,7 @@ p {
     }
 
     /*BØLGER*/
-    .wave img{
+    .wave img {
         position: relative;
         bottom: 50px;
         height: 60px;
@@ -111,12 +111,13 @@ p {
         width: 100%;
     }
 
-    .wavetwo{
+    .wavetwo {
         position: relative;
         height: 50px;
         width: 100%;
         bottom: 10px;
     }
+
     .wave .wavetwo {
         position: relative;
         bottom: 20px;
@@ -124,37 +125,38 @@ p {
 
 
     /*OVERSKRIFT*/
-    .overskrift{
+    .overskrift {
         margin: 70px auto 30px;
     }
 
     .overskrift:before {
         width: 90px;
     }
-    
+
     .overskrift:after {
         width: 90px;
     }
 
     /*SECTIONS MED TEKST OG BILLEDER*/
-    .sectionet{
+    .sectionet {
         display: flex;
         color: #CEA948;
     }
 
 
-    .sectionto, .sectiontre{
+    .sectionto,
+    .sectiontre {
         display: flex;
         flex-direction: column;
         height: 300px;
     }
 
-    .sectionto{
+    .sectionto {
         background-color: #204653;
         height: 600px;
     }
 
-    .billedeto{
+    .billedeto {
         background-size: cover;
         background-repeat: no-repeat;
 
@@ -164,7 +166,7 @@ p {
         height: 600px;
     }
 
-    .sectionet p{
+    .sectionet p {
         padding-bottom: 30px;
 
         text-align: center;
@@ -172,7 +174,8 @@ p {
         margin-left: 8%;
         margin-right: 8%;
     }
-    .sectiontre p{
+
+    .sectiontre p {
         padding-top: 30px;
         text-align: center;
 
@@ -180,7 +183,7 @@ p {
         margin-right: 8%;
     }
 
-    .sectionto p{
+    .sectionto p {
         padding-bottom: 30px;
 
         text-align: center;
@@ -189,7 +192,7 @@ p {
         margin-right: 8%;
     }
 
-    .sectionto h1{
+    .sectionto h1 {
         padding-top: 30px;
         padding-bottom: 10px;
         text-align: center;
@@ -199,8 +202,8 @@ p {
     }
 
     /*MØRK BAGGRUND PÅ BILLEDE*/
-    .divtre{
-        background:rgba(0,0,0,0.8);
+    .divtre {
+        background: rgba(0, 0, 0, 0.8);
     }
 }
 
@@ -306,8 +309,9 @@ p {
         margin-bottom: 20px;
     }
 
-    .sectionto, .sectiontre{
-        display:flex;
+    .sectionto,
+    .sectiontre {
+        display: flex;
     }
 
     /*BØLGE TO*/

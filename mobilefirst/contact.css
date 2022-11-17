@@ -89,7 +89,7 @@ h2 {
 
     }
 
-    .contactus p{
+    .contactus p {
         margin-bottom: 20px;
     }
 
@@ -135,7 +135,7 @@ h2 {
         display: flex;
         background-color: #2f667a;
         color: #cea948;
-        font-size: 16pt;
+        font-size: 11pt;
     }
 
     .field-textarea {
@@ -153,7 +153,7 @@ h2 {
         background-color: #2f667a;
         color: #cea948;
 
-        font-size: 12pt;
+        font-size: 10pt;
 
     }
 
@@ -220,7 +220,8 @@ h2 {
         border: 1px solid #cea948;
     }
 
-    .kortudvalgbar h1, .kortudvalgshop h1 {
+    .kortudvalgbar h1,
+    .kortudvalgshop h1 {
         margin-bottom: 10px;
     }
 
@@ -250,7 +251,7 @@ h2 {
         border: 1px solid #cea948;
     }
 
-    .find{
+    .find {
         margin-bottom: 30px;
     }
 
@@ -267,10 +268,10 @@ h2 {
         margin-bottom: 5px;
     }
 
-    .tider{
+    .tider {
         display: block;
         text-align: center;
-        margin:0% 10% 5% 10%;
+        margin: 0% 10% 5% 10%;
     }
 
     .openinghours h2 {
@@ -280,7 +281,8 @@ h2 {
         margin-top: 20px;
     }
 
-    .firsttext, .secondtext {
+    .firsttext,
+    .secondtext {
         display: flex;
         flex-direction: column;
         background-color: #204653;
@@ -338,7 +340,7 @@ h2 {
         display: flex;
         background-color: #2f667a;
         color: #cea948;
-        font-size: 16pt;
+        font-size: 13pt;
 
 
     }
@@ -478,17 +480,17 @@ h2 {
         flex-direction: column;
         text-align: center;
         align-items: center;
-        
+
         margin-top: 20px;
         margin-bottom: 50px;
         margin-left: 15%;
 
-        
+
         width: 70%;
         height: auto;
     }
 
-    .contactus p{
+    .contactus p {
         margin-top: 20px;
     }
 
