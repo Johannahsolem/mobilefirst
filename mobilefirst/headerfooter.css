@@ -181,7 +181,7 @@ footer li {
         font-size: 16pt;
         padding-bottom: 10px;
 
-        align-items: right;
+        float: right;
     }
 
     .navlaptop a:hover {
