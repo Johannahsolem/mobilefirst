@@ -65,7 +65,7 @@ main .topbillede {
     border-radius: 20px;
 
     font-size: 10pt;
-    width: 30%;
+    width: 25%;
 
     border: 1px solid #0E1E24;
     transition: 0.5s;
@@ -119,7 +119,7 @@ main .topbillede {
 }
 
 .textforside h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /*Instagram overskrift*/
@@ -266,7 +266,6 @@ main .topbillede {
     .textforside h2 {
         font-size: 16pt;
         margin-top: 20px;
-        margin-bottom: 10px;
     }
 
     .textforside p {
