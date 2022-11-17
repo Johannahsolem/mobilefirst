@@ -16,8 +16,8 @@ p {
     letter-spacing: 0.7px;
 }
 
-main{
-    height:auto;
+main {
+    height: auto;
 }
 
 /*TOP BILLEDE*/
@@ -65,16 +65,16 @@ main .topbillede {
     border-radius: 20px;
 
     font-size: 10pt;
-    width:30%;
+    width: 30%;
 
-    border:1px solid #0E1E24;
+    border: 1px solid #0E1E24;
     transition: 0.5s;
 
 }
 
 .button:hover {
     background-color: #204653;
-    border:1px solid #CEA948;
+    border: 1px solid #CEA948;
 }
 
 /*CARDS*/
@@ -86,17 +86,17 @@ main .topbillede {
 
     background-color: #204653;
     color: #cea948;
-  
+
     height: 400px;
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-right: 10%;
     margin-left: 10%;
 }
 
 
 /*CARDS BILLED STYLES*/
-.imgforside img{
+.imgforside img {
     width: 100%;
     height: 100%;
     border-radius: 22px;
@@ -104,8 +104,9 @@ main .topbillede {
 }
 
 
-.cardsforside div:first-child, .cardsforside div:nth-child(2){
-    width:50%;
+.cardsforside div:first-child,
+.cardsforside div:nth-child(2) {
+    width: 50%;
 }
 
 /*CARDS TEXT STYLES*/
@@ -117,8 +118,8 @@ main .topbillede {
     padding: 50px 40px;
 }
 
-.textforside h2{
-    margin-bottom:20px;
+.textforside h2 {
+    margin-bottom: 20px;
 }
 
 /*Instagram overskrift*/
@@ -170,171 +171,173 @@ main .topbillede {
     margin: 10px;
     padding: 10px;
 }
-.instacontainer div{
+
+.instacontainer div {
     margin: 10px;
     padding: 10px;
 }
 
-.instacontainer img{
+.instacontainer img {
     border-radius: 20px;
 }
 
 /*Maps*/
-.map{
-filter: grayscale(100%);
-margin-top: 100px;
-width:100%;
+.map {
+    filter: grayscale(100%);
+    margin-top: 80px;
+    width: 100%;
 }
 
 
-.instacontainer img{
+.instacontainer img {
     transition: transform 1s;
 }
 
-.instacontainer img:hover{
+.instacontainer img:hover {
     transform: scale(1.1);
 }
 
 
 
 @media screen and (max-width:910px) {
-main .topbillede{
-    height:200px;
-    position: relative;
-    top:100px;
+    main .topbillede {
+        height: 200px;
+        position: relative;
+        top: 100px;
 
-}
+    }
 
-.topbillede h1 {
-    font-size: 16pt;
-    position: relative;
-    top: 0px;
+    .topbillede h1 {
+        font-size: 16pt;
+        position: relative;
+        top: 0px;
 
-    padding-top: 16%;
-    padding-bottom:21%;
-    padding-left: 20%;
-    background: rgba(0,0,0,0.6);
-}
+        padding-top: 16%;
+        padding-bottom: 21%;
+        padding-left: 20%;
+        background: rgba(0, 0, 0, 0.6);
+    }
 
-.topbillede img{
-    top:-40px;
-}
+    .topbillede img {
+        top: -40px;
+    }
 
-.cardsforside {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border:none;
-    background-color: transparent;
+    .cardsforside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: transparent;
 
-    position: relative;
-    top:120px;
+        position: relative;
+        top: 120px;
 
-    width:100%;
+        width: 100%;
 
-    color: #cea948;
-    border-radius: 22px;
+        color: #cea948;
+        border-radius: 22px;
 
-    margin:0px;
-    margin-top:30px;
-}
+        margin: 0px;
+        margin-top: 30px;
+    }
 
-.imgforside img{
-    border-radius: 22px;
-    border: 1px solid #cea948;
-    order: 1;
-}
+    .imgforside img {
+        border-radius: 22px;
+        border: 1px solid #cea948;
+        order: 1;
+    }
 
-.cardsforside div:first-child, .cardsforside div:nth-child(2){
-    width:80%;
-}
+    .cardsforside div:first-child,
+    .cardsforside div:nth-child(2) {
+        width: 80%;
+    }
 
-.cardsforside .textforside{
-    order: 2;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
+    .cardsforside .textforside {
+        order: 2;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
 
-    padding:0px;
-}
+        padding: 0px;
+    }
 
-.textforside h2{
-    font-size: 16pt;
-    margin-top:20px;
-    margin-bottom: 10px;
-}
+    .textforside h2 {
+        font-size: 16pt;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
 
-.textforside p{
-    font-size: 12pt;
-}
+    .textforside p {
+        font-size: 12pt;
+    }
 
-.button{
-    width:50%;
-    background-color: #204653;
-    justify-content: center;
-    border:none;
-}
+    .button {
+        width: 50%;
+        background-color: #204653;
+        justify-content: center;
+        border: none;
+    }
 
 
 
-/*INSTAGRAM OVERSKRIFT*/
-.overskriftinstagram {
-    margin: 180px auto 30px;
-    text-align: center;
-    max-width: 820px;
-    position: relative;
+    /*INSTAGRAM OVERSKRIFT*/
+    .overskriftinstagram {
+        margin: 180px auto 30px;
+        text-align: center;
+        max-width: 820px;
+        position: relative;
 
-    color: #CEA948;
-    font-size: 14pt;
-}
+        color: #CEA948;
+        font-size: 14pt;
+    }
 
-.overskriftinstagram:before {
-    content: '';
-    display: block;
-    width: 55px;
-    height: 1px;
+    .overskriftinstagram:before {
+        content: '';
+        display: block;
+        width: 55px;
+        height: 1px;
 
-    background: #CEA948;
-    position: absolute;
-    left: 10%;
-    top: 50%;
-}
+        background: #CEA948;
+        position: absolute;
+        left: 10%;
+        top: 50%;
+    }
 
-.overskriftinstagram:after {
-    content: '';
-    display: block;
-    width: 55px;
-    height: 1px;
+    .overskriftinstagram:after {
+        content: '';
+        display: block;
+        width: 55px;
+        height: 1px;
 
-    background: #CEA948;
-    position: absolute;
-    right: 10%;
-    top: 50%;
-}
+        background: #CEA948;
+        position: absolute;
+        right: 10%;
+        top: 50%;
+    }
 
-/*INSTAGRAM KORT*/
-.instacontainer{
-    margin-right:5%;
-    margin-left: 5%;
-    padding:0px;
-}
+    /*INSTAGRAM KORT*/
+    .instacontainer {
+        margin-right: 5%;
+        margin-left: 5%;
+        padding: 0px;
+    }
 
-.instacontainer div{
-    margin:0px;
-}
+    .instacontainer div {
+        margin: 0px;
+    }
 
-.instacontainer img{
-    width:100%;
-    border-radius: 5px;
-}
+    .instacontainer img {
+        width: 100%;
+        border-radius: 5px;
+    }
 
-/*MAPS*/
-.map{
-    margin-top:50px;
-    margin-bottom:50px;
-}
+    /*MAPS*/
+    .map {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 
 
 }

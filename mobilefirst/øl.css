@@ -17,6 +17,7 @@ main {
 
 /*MOBIL*/
 @media screen and (max-width:910px) {
+
     /*TOP BILLEDE*/
     main .topbillede {
         background-image: url(images/ølspecialiteter.png);
@@ -193,11 +194,11 @@ main {
     ol h3 {
         color: #EDC458;
         font-size: 12pt;
-        padding-right:5px;
+        padding-right: 5px;
 
     }
 
-   .pris{
+    .pris {
         font-size: small;
     }
 
